@@ -1,0 +1,127 @@
+html { 
+    background: url(https://images.pexels.com/photos/3113541/pexels-photo-3113541.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Adicione estilos responsivos aqui */
+
+/* Exemplo de media query para estilos em telas menores (dispositivos móveis) */
+@media only screen and (max-width: 600px) {
+    /* Adicione estilos específicos para telas menores aqui */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+    background-image: url('');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;    
+}
+
+header {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    word-spacing: normal;
+    letter-spacing:normal;
+    
+}
+
+header h1 {
+    font-size: 10em; 
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header p {
+    font-size: 1.5em; 
+    
+}
+
+main {
+    padding: 150px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile .frame {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 300px;
+}
+
+.profile .frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 300px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: inset 0 1000px whitesmoke;
+    border-radius: 10px;
+    
+}
+
+.details {
+    color: rgb(0, 0, 0);
+    text-align: left; 
+    margin-left: 10px;
+    border: 2px solid rgb(0, 0, 0) ;
+    box-shadow: inset 0 1000px whitesmoke;
+    border-radius: 10px;
+    padding: 7px;   
+    margin-bottom: 300px;
+}
+
+.social-icons {
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons i {
+    font-size: 24px;
+}
+
+.social-icons .fa-facebook-f {
+    color: blue; 
+}
+.social-icons .fa-github {
+    color: orange; 
+}
+.social-icons .fa-linkedin-in {
+    color: #0077b5; 
+}
+
+.social-icons .fa-instagram {
+    color: purple; 
+}
+
