@@ -117,3 +117,41 @@ main {
     color: purple; 
 }
 
+/* Estilos para telas menores que 600 pixels de largura */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 6em;
+    }
+    
+    main {
+        padding: 50px;
+    }
+
+    .profile .frame {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+
+    .bio {
+        margin-bottom: 50px;
+    }
+
+    .details {
+        margin-bottom: 50px;
+    }
+
+    .social-icons {
+        margin-left: 20px;
+    }
+}
+
+/* Outras regras de mídia para telas de diferentes tamanhos */
+@media screen and (max-width: 1200px) {
+    /* Adicione suas regras de estilo aqui para telas de 601px a 1200px */
+}
+
+/* Outras regras de mídia para telas de diferentes tamanhos */
+@media screen and (min-width: 1201px) {
+    /* Adicione suas regras de estilo aqui para telas maiores que 1200px */
+}
