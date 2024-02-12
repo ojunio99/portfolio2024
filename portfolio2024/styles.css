@@ -6,6 +6,27 @@ html {
     background-size: cover;
 }
 
+/* Adicione estilos responsivos aqui */
+
+/* Exemplo de media query para estilos em telas menores (dispositivos móveis) */
+@media only screen and (max-width: 600px) {
+    /* Adicione estilos específicos para telas menores aqui */
+}
+
+.profilemobile {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Alinha os itens no centro vertical */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos específicos para telas pequenas (dispositivos móveis) */
+@media only screen and (max-width: 600px) {
+    .profilemobile {
+        padding: 20px; /* Adicione espaçamento interno */
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
