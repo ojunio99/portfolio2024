@@ -1,41 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="pt-BR">
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio 2024</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- FONTS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/d987aa355c.js" crossorigin="anonymous" defer></script>
+  </head>
+  <body>
     <header>
-        <h1 style="margin-bottom: 1px;">Hello!</h1>
-        
+      <h1>Vitor Junio</h1>
+
+      <nav>
+        <a href="https://www.facebook.com/vitor.junio.77" target="_blank" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://github.com/ojunio99" target="_blank" class="icon"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ojunio99/" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ojunio99" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
+      </nav>
     </header>
+
     <main>
-        <div class="profile">
-            <div class="frame">
-                <img src="https://media.licdn.com/dms/image/D4D03AQEyB7D7kVMnyw/profile-displayphoto-shrink_800_800/0/1706823485586?e=1713398400&v=beta&t=Sqof8O7v9sfgyLpyyf8eLO0rGRrIbwqMjCSySPoB20Q" alt="Minha Foto">
+      <section class="main-content">
+        <article class="text">
+          <h2>🙋‍♂️ About Me</h2>
+          <p>
+            Hi, my name is Vitor Junio, I'm 24 years old and I'm from Porto, Portugal.
+            Computer technician and student of the professional management and IT Systems Programming course.
+            Passionate about software development, I have studied programming since I was 15, with an emphasis on web development and Python automation. 😁
+          </p>
+        </article>
+
+        <aside class="techs">
+          <h2>👨‍💻 Languages</h2>
+
+          <div class="cards-container">
+            <div class="card">
+              <img src="./img/techs/html-logo.png" alt="Logo do HTML5">
             </div>
-            <div class="bio">
-                <h2>About Me</h2>
-                <p>I am an allround web developer. I am a junior programmer with good knowledge of full-stack techniques.
-                    <p> Vitae sapien pellentesque habitant morbi tristique senectus et.</p>
-                </p>
+
+            <div class="card">
+              <img src="./img/techs/css-logo.png" alt="Logo do CSS3">
             </div>
-            <div class="details">
-                <p><strong>Name:</strong> Vitor Junio</p>
-                <p><strong>Age:</strong> 24</p>
-                <p><strong>Location:</strong> Porto, Portugal</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/vitor.junio.77" target="_blank" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://github.com/ojunio99?tab=repositories" target="_blank" class="icon"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/ojunio99/" target="_blank" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://www.instagram.com/ojunio99" target="_blank" class="icon"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+
+            <div class="card">
+              <img src="./img/techs/js-logo.png" alt="Logo do Javascript">
             </div>
-        </div>
+
+            <div class="card">
+              <img src="./img/techs/react-logo.png" alt="Logo do React">
+            </div>
+            <div class="card">
+              <img src="./img/techs/java-logo.png" alt="Logo do Java">
+            </div>
+            <div class="card">
+              <img src="./img/techs/csharp-logo.png" alt="Logo do C#">
+            </div>
+            <div class="card">
+              <img src="./img/techs/php-logo.png" alt="Logo do PHP">
+            </div>
+            <div class="card">
+              <img src="./img/techs/python-logo.png" alt="Logo do Python">
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <figure>
+        <img src="./img/techs/vitor.jpg" alt="Imagem de Vitor Junio">
+        <figcaption>Vitor Junio Pereira Pinto</figcaption>
+      </figure>
     </main>
-    <script src="script.js"></script>
-</body>
+
+    <footer>
+      <span>
+        &copy; Vitor Junio Pereira Pinto, 2024 - Todos os direitos reservados.
+      </span>
+    </footer>
+  </body>
 </html>
