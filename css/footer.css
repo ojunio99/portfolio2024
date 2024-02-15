@@ -11,3 +11,59 @@ footer span {
   font-size: 0.8em;
   font-weight: 200;
 }
+
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+
+.new_footer_top .footer_bg {
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  height: 200px;
+}
+
+
+.new_footer_top .footer_bg .footer_bg_two {
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
+  width: 88px;
+  height: 100px;
+background-size:100%;
+  bottom: 0;
+  left: 38%;
+  position: absolute;
+  -webkit-animation: myfirst 10s linear infinite;
+  animation: myfirst 30s linear infinite;
+}
+
+
+
+@-moz-keyframes myfirst {
+0% {
+  left: -90%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@-webkit-keyframes myfirst {
+0% {
+  left: -90%;
+}
+100% {
+  left: 100%;
+}
+}
+
+@keyframes myfirst {
+0% {
+  left: -90%;
+}
+100% {
+  left: 100%;
+}
+}
+
+/*************footer End*****************/
